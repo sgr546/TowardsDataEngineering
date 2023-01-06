@@ -16,7 +16,7 @@ print("Seconds remaining in my coming BDay :|:", (datetime.datetime(year=2021, m
 print("Seconds consumed in running this program :|:", (datetime.datetime.now() - to_day).microseconds)
 print("Current Time :|:", to_day.time())
 print("Current Time minute", datetime.datetime.now().time().minute)
-print("Current Time hour", datetime.datetime.now().time().minute)
+print("Current Time hour", datetime.datetime.now().time().hour)
 print("Current Time seconds", datetime.datetime.now().time().second)
 print("Current Time microseconds", to_day.time().microsecond)
 
